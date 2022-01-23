@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "stack_review",
+    "host": "localhost",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": null,
+    "password": null,
+    "database": "stack_review_test",
+    "host": "localhost",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "stack_review",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}

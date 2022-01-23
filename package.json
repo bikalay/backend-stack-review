@@ -1,0 +1,31 @@
+{
+  "name": "backend-stack-review",
+  "version": "1.0.0",
+  "description": "backend technologies review",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test-watch": "jest --watch --coverage",
+    "migrate": "sequelize db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikalay/backend-stack-review.git"
+  },
+  "author": "ALexander Vovchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bikalay/backend-stack-review/issues"
+  },
+  "homepage": "https://github.com/bikalay/backend-stack-review#readme",
+  "dependencies": {
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.14.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "sequelize-cli": "^6.3.0"
+  }
+}
